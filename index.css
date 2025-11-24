@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h2{
+    color: blue;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li{
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer; 
+    color: red;
+}
+
+#hero{
+    height: 610px;
+    background-color: rgba(0, 0, 0, 0.361);
+}
