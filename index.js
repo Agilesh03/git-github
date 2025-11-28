@@ -128,9 +128,162 @@
 // }
 // callgreet(greet)
 
-// control structure
+// control structure  - used to control the flow of execution
+// conditional statements and looping statements
+
+// const val = +prompt("whose jersey number is 7?")
+// if ("MS dhoni"){
+//     console.log("absolutely right")
+// }
+// else if("viratkohli"){
+//     console.log("jersey number is 18")
+// }
+// else{
+//     console.log("wrong answer")
+// }
+
+//switch case
+
+// let day = prompt("enter the day")
+
+// switch (day) {
+//     case "sunday":
+//         console.log("Enjoy weekend");
+//         break;
+//     case "monday":
+//         console.log("die");
+//         break;
+//     case "friday":
+//         console.log("ready to weekend");
+//         break;
+//     default:
+//         console.log("study");
+// }
 
 
 
+// looping statements
+
+// for loop
+    //init;cond;increment/decrement
+// for (let i =0; i<=70; i++){
+//     console.log(i)
+// }
+
+// const arr = [1,2,3,4,10]
+// for (let i=0; i<arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// for (const key in {name:"agilesh", age:20 , location:"bangalore"}){
+//     console.log(key)
+// }
+
+// const obj = {name:"agilesh", age:20, location:"bangalore"}
+// for (const key in obj){
+//     console.log(obj[key])
+// }
+
+// const arr = [0,1,2,3,4]
+// for (i=0; i<arr.length; i++){
+//     console.log(arr)
+// }
+
+// for (const arrayitems of arr){
+//     console.log(arrayitems)
+// }
+
+// function randomgen(){
+//     return Math.ceil(Math.random() *7) +1
+// }
+// console.log(randomgen())
+
+// outer:for (i=0; i<10; i++){
+//     for (j=0; j<10; j++){
+//     console.log(i,j)
+//     if (i==3 && j==3){
+//         break outer;
+//     }
+// }
+// }
+
+// for (i=0; i<10; i++){
+//     if (i==3){              //ship a particular iteration
+//         continue
+//     }
+//     console.log(i)
+// }
 
 
+// array methods
+// const arr = [1,2,3,4,5,6,7,8,9,10]
+// arr.push(8)          used to add a new element in the array
+
+// arr.pop()            removes the last element in the array
+
+// arr.shift()          removes the first element in the array
+
+// arr.unshift(99)      adds a new number or element in the first side of array
+
+// arr.reverse()        used to reverse an array
+
+// arr.splice(2,1,"agilesh")  used to remove an element from an array and replace it with another
+
+// console.log(arr.slice(0,3)) it takes only the given value based on the number
+
+// console.log(arr.concat(5,6,7,8,99)) concat is used to combine an array to the existing one
+
+// console.log(arr.includes(7))  shows whether the given number is in the array or not, if it is in the array, it returns true else returns false
+
+// console.log(arr.indexOf(2))
+
+// console.log(arr.find(function(val,idx,arr){
+//     return val > 2
+// }))
+
+// console.log(arr.map(function(val,idx,arr){
+//     return {
+//         [idx]:val
+//     }
+// }))
+
+
+// let sum = 0
+// arr.forEach(function(idx,val,arr){
+//     sum+=val
+// })
+// console.log(sum)
+
+
+// console.log(arr.reduce((pre,cur,idx,arr) => {
+//     console.log(pre,cur)
+//     return pre+cur
+// }))
+
+// console.log(arr.lastIndexOf(10))
+
+
+// console.log(
+//     arr.filter((val,idx,arr) =>{
+//     return val>5
+// }))
+
+// console.log(arr.join("-"))
+
+// console.log("12345".split(""))
+
+
+// const arr = [1,2,3,4,5,6,7,8]
+// const arrentries = arr.entries()
+
+// for (const a of arrentries){
+//     console.log(a)
+// }
+
+
+// const arr = [1,2,3,4,5,6,7,8]
+// const arrentries = arr.values()
+
+// for (const a of arrentries){
+//     console.log(a)
+// }
